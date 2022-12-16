@@ -11,7 +11,7 @@ In den Ordnern <i>"_Dateien\LTSC19"</i> und <i>"_Dateien\LTSC21"</i> müssen die
 | Inplace-Upgrade.bat | Das eigentliche Skript des automatisierten Upgrades. Ermittelt die aktuelle Windows-Version und kopiert die benötigten Dateien für das Upgrade auf den Client |
 | manuelles-inplace\ | Skripte für das einzelne manuelle Starten des Inplace-Upgrades von entweder LTSC 2019 oder LTSC 2021 |
 | Cleaner_link.bat | Startet die Datei <i>"_Dateien\Cleaner\Cleaner.bat"</i> |
-| _Dateien\Cleaner\Cleaner.bat | Startet die Skripte unter <i>".\_Dateien\Cleaner\helper\"</i> |
+| _Dateien\Cleaner\Cleaner.bat | Startet die Skripte unter <i>"_Dateien\Cleaner\helper\"</i> |
 | _Dateien\Cleaner\helper\ | Beinhaltet die Skripte zur Setzung und anschließender Löschung der benötigten Registry-Keys der Datenträgerbereinigung, Löschung der Installationsdateien und zur Konfiguration (Start nach Hochfahren) und direktem Starten des Dienstes "WebClient" |
 | _Dateien\LTSC19\ | Beinhaltet die Installationsdateien von Windows (müssen nachträglich eingefügt werden, da pro OS ~4GB) |
 | _Dateien\LTSC19\trigger_upgrade.bat | Beinhaltet das Skript fürs manuelle Starten des Upgrades der jeweiligen Windows-Version |
